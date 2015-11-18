@@ -34,33 +34,57 @@ My personal slack channel wasn't originally conceived of as a writing aid -- I f
 
 3) *Write liberally about whatever's on your mind.* Think out loud. Ramble. This space is all yours; you can write as much as you want without imposing on anyone, and other people can read it (if they want to) at their own pace. Keep it casual -- you're just talking to yourself, after all. And not everything you write has to be Deep Thoughts and Future Blog Posts. Funny incidents and pictures from your day are A-OK too. Just share what's going on with you.
 
-#Why it seems to work
+##Why it seems to work
+
+Writing in a slack channel somehow bypasses the part of my brain that makes "just writing" hard. It's not a Blog Post, or a thing to be Published -- it's just me putting some thoughts down.
+
+Somehow, email and chat falls into a different, easier category of writing. Words flow more easily when I'm looking at a chat input box or a Gmail compose window, compared to staring at a blank paper or text editor.
+
+With chat in particular, the medium encourages you to write just a little at a time, and it prevents you from easily going back and editing something you just wrote. 
+
+This seems like a super cool hack. The writing itself is the most important part when you're getting started -- more important than the medium or platform. If you write more easily in the form of chats or emails, you should take advantage of that, and give yourself permission to feel good about the writing you do in this format. It's "real" writing. It counts. And if it something interesting happens to come out of your chat ramblings, you can always package it up 
 
 
 
-#Why Slack in particular?
- 
+and if something interesting comes out, I can always package it up into a "proper" blog post if I want.
+
+once you have the thoughts in words, however rough, the rest is relatively easy
+
+I used to write fairly regularly on the CFAR alumni mailing list, and sometimes people would really like something I wrote and urge me to put it up somewhere so they could more easily share it with friends
+
+btw, I really like what Joanna has done, publishing pieces of writing just as Facebook posts
+
+I think that's very much in the same spirit
+
+anyway, inspired by this phenomenon, I registered alicedash.com just now
+
+a place to put my thoughts and writings in a more accessible format, when something interesting comes out of #alice- or similar
+
+and named after this channel, to embody the spirit of ease and informality and flow that I experience here
+
+thank you all for being my little rubber ducks :simple_smile: there's a kind of quiet, passive-listening quality to slack, that makes it really easy to talk
+
+the channel purpose says "Alice talks to herself, and maybe to you!" it really does feel like that
+
+"Alice talks to herself"... there's a kind of safe privacy here, like talking to your secret diary
+
+"and maybe to you!"... but a kind of pointfulness and purpose that a diary lacks
+
+anyway, I'd like to have a blog up at alicedash.com by end of Friday
+
+please do hold me to that :simple_smile
 
 
 
-[I've picked up a new writing habit recently][like many aspiring writers, I struggle with the "don't think just write" rough-drafting phase of writing, especially the getting started part][once I've begun putting thoughts into words and have a decent number of words in my text editor, it gets a lot easier, and I can sometimes even get into a flow and enjoy myself][editing is still a lot of work, and not always easy, but producing rough drafts is definitely where I've tended to bottleneck]
-
-[but with this new hack, my raw words-per-day has skyrocketed and for the first time, I'm finding myself bottlenecked on editing/publishing instead of drafting] I've written about 15,000 words in the last 3 weeks, and it wasn't even hard. I never explicitly decided that I would dedicate X hours a day to it, or produce X words a day.][I never forced myself to draft.][I just changed my drafting format, and the words started to flow]
-
-[so as not to bury the lede, here's how to set up the "hack" I've been using. I'll explain later.]
-1) *Set up a slack organization with a few trusted friends.* These should be people that you enjoy talking with and with whom you feel safe sharing half-baked thoughts. In my case, I already had a slack organization that I shared with my housemates. 
-2) Create a personal channel, probably named after yourself.
-3) 
-
-
-The background
 
 
 
-Why it seems to work
+
+##Why Slack in particular?
 
 
-Why Slack in particular?
+##So everything is easy now, right?! 
+
 
 
 
