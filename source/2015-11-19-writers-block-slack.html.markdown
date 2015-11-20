@@ -68,4 +68,4 @@ But all the same, historically I've been bottlenecked on rough-drafting, and now
 
 Even if you don't publish, I believe the writing itself to be the most important part, especially when you're starting out. It's more important than the medium or distribution. Writing helps you clarify your thoughts, and have more and better thoughts. If you find you write more easily in the form of chats or emails, please do take full advantage of that, and give yourself permission to feel good about writing that takes place in this context. It's "real" writing. It counts. And if something interesting happens to come out of your chat ramblings, and your friends clamor for a shareable link, you can always choose to package up a "proper" blog post. The point of publishing is merely to make your thoughts easier to share outside of your small, trusted Slack audience.
 
-So that's what I got for now. Welcome to AliceDash.com! I hope to have more for you soon.
+So that's what I've got for now. Welcome to AliceDash.com! I hope to have more for you soon.
