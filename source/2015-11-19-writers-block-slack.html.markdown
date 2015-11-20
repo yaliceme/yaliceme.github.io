@@ -18,7 +18,7 @@ My main problem is in the rough-drafting phase, the "don't think, just write" ea
 
 So whence these 15,000 words?
 
-##The thingy in a nutshell
+###The thingy in a nutshell
 
 Here it is: **Do your rough drafting in a [Slack](https://slack.com/) chat channel instead of in a document.**
 
@@ -26,7 +26,7 @@ That's it. It sounds a bit too-simple and anticlimatic written down, but "I acci
 
 My personal slack channel wasn't originally conceived of as a writing aid &mdash; I figured I would mostly use it as a place to write down my goals for the day, in a place where my roommates might see and hold me accountable. But it's turned out to be the perfect place to ramble stream-of-consciousness style about whatever I'm thinking about, which is what good rough-drafting is all about.
 
-##The how-to
+###The how-to
 
 1. **[Set up a Slack team](https://slack.com/create) with a few trusted friends.** These should be people that you like and find easy to talk to, people with whom you feel safe sharing half-baked ideas. In my case, my roommates and I already had a house Slack team, just for chatting and bantering and keeping on the same page about house things. 
 
@@ -36,13 +36,13 @@ My personal slack channel wasn't originally conceived of as a writing aid &mdash
 
 4. **Copy-paste the interesting stuff for editing.** Now and then, something interesting and potentially blog-shaped will emerge from your ramblings. Now is the part where you're allowed to move your words into a document and do some editing.
 
-##Why it seems to work
+###Why it seems to work
 
 Email and chat are so ubiquitious in our lives &mdash; so frequently and casually used &mdash; that it probably doesn't even feel like writing to you. It's more like talking. You're just having a conversation with a person on the other side. Words flow so much more readily when you're looking at a chat input box or a Gmail compose window, compared to staring at a blank paper or text editor. It somehow bypasses the part of your brain that makes "just writing" hard. 
 
 With chat in particular, the medium encourages you to write just a sentence or two at a time, and it prevents you from easily going back and editing the previous line. Once you've hit enter, the focus jumps to the next bit of thought. And unlike a text editor, a chat client feels like it's listening. There's a quiet expectancy to the blank input line. You're in the middle of a long train of thought, and you don't want to leave your listener hanging for too long with only *"alice is typing..."* to look at. So you get to your point, and resist stalling for the perfect words, and keep the momentum moving forward. Perfect rough-drafting form, in other words.
 
-##Why Slack in particular?
+###Why Slack in particular?
 
 There are a lot of chat clients out there, but I think [Slack](https://slack.com/) is particularly well suited for writing long-form. For a few reasons:
 
@@ -60,7 +60,7 @@ A Slack channel has a quiet, passive-listening quality that makes it really easy
 
 *"... and maybe to you!"* &mdash; But a kind of pointfulness and purpose that a journal lacks. Someone is listening and interested in what you have to say. They might be following along in real time, or they might not. You're not bothering them, either way.
 
-##So everything is easy now, right?! 
+###So everything is easy now, right?! 
 
 Not exactly. Editing is still a lot of work. It took me nine hours across four days to go from the bit of #alice- ramblings that prompted this post to the finished product, and that process still did involve a lot of procrastination, self-flagellation, etc. 
 
