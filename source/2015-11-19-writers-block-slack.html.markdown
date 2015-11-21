@@ -2,6 +2,7 @@
 title: How to beat writer's block using Slack
 date: 2015-11-19 00:01 UTC
 tags: writing, lifehack
+open_graph_image: /images/slack_image.jpg
 ---
 
 So I counted just now, and apparently I've written about 15,000 words in the last three weeks. About a third of a novel, going by the [Nanowrimo](http://nanowrimo.org/) [convention](http://nanowrimo.org/how-it-works). 
