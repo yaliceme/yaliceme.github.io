@@ -5,10 +5,52 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-11-18T16:01:00-08:00</updated>
+  <updated>2015-11-19T17:13:00-08:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>So what is Alice Dash all about?</title>
+    <link rel="alternate" href="http://blog.url.com/what-is/"/>
+    <id>http://blog.url.com/what-is/</id>
+    <published>2015-11-19T17:13:00-08:00</published>
+    <updated>2015-11-20T18:11:45-08:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;I was thinking a bit today about “what kind of blog” I want Alice Dash to be. I had named it after the #alice- channel I have in my house Slack team, inspired by the sense of ease and informality and flow that I experience when &lt;a href="http://alicedash.com/writers-block-slack/"&gt;writing there&lt;/a&gt;. I envisioned it as simply a place to put my thoughts and writings in a more accessible format, when something interesting came out of #alice- or someplace similar. I figured I would apply a very light coat of editing (if any) and prioritize being prolific over being "good."&lt;/p&gt;
+
+&lt;p&gt;But today, I was thinking of reposting a relationship litmus test that I came up with in #alice-, and part of me was like: "nah, I don’t want this to be a Relationships blog."&lt;/p&gt;
+
+&lt;p&gt;But then, another part of me was like: "wait, didn’t you tell yourself that the whole point of Alice Dash was to be a place where you could post ​&lt;strong&gt;anything&lt;/strong&gt;​ you were thinking about, without worrying about whether it was 'good' or 'on brand' or thematically related to the other stuff you're posting?"&lt;/p&gt;
+
+&lt;p&gt;Didn't you tell yourself that you named it after your Slack channel because you wanted it to be merely a slightly more public version of #alice- itself?&lt;/p&gt;
+
+&lt;p&gt;And that if you wanted to be ambitious about some particular piece of content — if you wanted to spend a lot of time editing and thinking about audience and value prop and view counts etc — that you would take that stuff to Medium?&lt;/p&gt;
+
+&lt;p&gt;I spent a ​&lt;strong&gt;lot&lt;/strong&gt;​ of time working on the writer's block post that I put up yesterday. I knew, partway through, that I was Trying Hard on this one, and not simply doing the thing where I ramble in #alice- and lightly package parts of it for alicedash.com.&lt;/p&gt;
+
+&lt;p&gt;And I asked myself why.&lt;/p&gt;
+
+&lt;p&gt;And I was like: "I want it to be good! I want to get the blog off to a good start! After that, I can drop the try-harding."&lt;/p&gt;
+
+&lt;p&gt;And maybe that's a valid excuse. But I'm also now feeling a sense of: "well, now that I’ve set the bar there, I’ll feel weird posting sloppy stuff."&lt;/p&gt;
+
+&lt;p&gt;Or: “People won’t know that this blog is supposed to be just a casual unambitious rambling-ground, and they’ll critique it like it’s a Serious Blog."&lt;/p&gt;
+
+&lt;p&gt;Or: “My friends who are savvy about marketing and personal brand will Judge Me."&lt;/p&gt;
+
+&lt;p&gt;So I'm following up yesterday's post with this post to address: "so what is this blog about, really?"&lt;/p&gt;
+
+&lt;p&gt;I'll probably clean up &lt;a href="http://www.yalice.me/"&gt;yalice.me&lt;/a&gt; at some point and make that my main Personal Brand portal. I could have a section that lists my Medium posts as the main attraction that's meant to convey: “read Alice’s brain fruits and be dazzled by them!” And a relatively modest link to alicedash.com, with proper framing around what Alice Dash is, which is probably something like: "This is just an eclectic journal thing. I make no promises about its quality or posting schedule. Feel free to subscribe to it if you just find me to be a personally interesting character for some reason, but I won't try to sell you on that."&lt;/p&gt;
+
+&lt;p&gt;I think right now, I should be focusing primarily on just publishing a lot of content. If I want to Build Audience around a certain topic, I should spin that out as a separate Serious Blog with a mailing list, etc. Like if I wanted to do a blog centered around coding / learning to code, or personal finance for entrepreneurs, or tiny living.&lt;/p&gt;
+
+&lt;p&gt;But first, I should prove to myself that I can post frequently and without care to Alice Dash. Separate out the “write and publish prolifically" skill from the “content marketing” skill. Learn to play before learning to work, kill whatever hangups I have that cause me to take forever to publish anything, and let free the prolific writer within.&lt;/p&gt;
+
+&lt;p&gt;So that's what Alice Dash is all about. And this post took 40 minutes to edit, compared to 9 hours for yesterday's. Big improvement.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>How to beat writer's block using Slack</title>
     <link rel="alternate" href="http://blog.url.com/writers-block-slack/"/>
