@@ -1,5 +1,5 @@
 ---
-title: So what is the Alice Dash blog all about?
+title: So what is Alice Dash all about?
 date: 2015-11-20 01:13 UTC
 tags: writing
 ---
@@ -20,7 +20,7 @@ And I asked myself why.
  
 And I was like: "I want it to be good! I want to get the blog off to a good start! After that, I can drop the try-harding."
  
-And maybe that's a valid excuse. But I'm also now feeling a sense of "well, now that I’ve set the bar there, I’ll feel weird posting sloppy stuff."
+And maybe that's a valid excuse. But I'm also now feeling a sense of: "well, now that I’ve set the bar there, I’ll feel weird posting sloppy stuff."
  
 Or: “People won’t know that this blog is supposed to be just a casual unambitious rambling-ground, and they’ll critique it like it’s a Serious Blog."
  
@@ -34,4 +34,4 @@ I think right now, I should be focusing primarily on just publishing a lot of co
  
 But first, I should prove to myself that I can post frequently and without care to Alice Dash. Separate out the “write and publish prolifically" skill from the “content marketing” skill. Learn to play before learning to work, kill whatever hangups I have that cause me to take forever to publish anything, and let free the prolific writer within.
  
-So that's what Alice Dash is all about. And this post took 40 minutes to edit, compared to 9 hours for yesterday. Big improvement.
+So that's what Alice Dash is all about. And this post took 40 minutes to edit, compared to 9 hours for yesterday's. Big improvement.
