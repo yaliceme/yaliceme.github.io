@@ -5,16 +5,129 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-11-19T17:13:00-08:00</updated>
+  <updated>2015-11-25T16:56:00-08:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>How to pick up practically any habit</title>
+    <link rel="alternate" href="http://blog.url.com/habit/"/>
+    <id>http://blog.url.com/habit/</id>
+    <published>2015-11-25T16:56:00-08:00</published>
+    <updated>2015-11-26T14:59:35-08:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Around June of this year, I decided I wanted to make a habit out of learning to program.&lt;/p&gt;
+
+&lt;p&gt;I had been picking things up here and there since moving to California two years prior. I wrote &lt;a href="https://github.com/yaliceme/cube"&gt;my first web app&lt;/a&gt; in a single three-day sprint during an “app week” we had at work, and I attended a local JavaScript study group on and off.&lt;/p&gt;
+
+&lt;p&gt;But I had never been consistent about it. I was interested in programming, and I had a lot of fun during app week, but my job was non-technical, and there was nothing external to make sure I would keep learning. So I came up with a little hack for encouraging myself to learn a bit of programming &lt;strong&gt;every single day&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;My hack was basically a variant of Jerry Seinfeld's famous "&lt;a href="http://lifehacker.com/281626/jerry-seinfelds-productivity-secret"&gt;Don't Break the Chain&lt;/a&gt;" advice, with a few extra implementation details to help it really stick.&lt;/p&gt;
+
+&lt;p&gt;And it’s worked wonderfully! Since kicking it off on May 28, I have studied programming every single day with the exception of ​&lt;strong&gt;only 6 days&lt;/strong&gt;​, plus one week of “permitted break" for Burning Man. It's nearly December now, so that's an average of only 2 days skipped per month.&lt;/p&gt;
+
+&lt;p&gt;I’m currently on my longest streak ever — in fact, yesterday marked &lt;strong&gt;100 consecutive days&lt;/strong&gt; of programming study. It's a simple but powerful hack, and it can be applied to &lt;strong&gt;virtually any habit&lt;/strong&gt; that you want to perform on a daily basis. I’m excited to share the recipe so you too can become awesomer at whatever goals you care about right now.&lt;/p&gt;
+
+&lt;h3 id="in-a-nutshell"&gt;In a nutshell&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;“Commit to doing a &lt;em&gt;tiny&lt;/em&gt; version of your habit ​&lt;em&gt;every single day&lt;/em&gt;​, then prominently track how many ​&lt;em&gt;consecutive days&lt;/em&gt;​ you’ve met that commitment."&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;It's basically "Don't Break the Chain," with a “high score” element thrown in, where you're tracking — in some prominently visible place — exactly how long your current chain is.&lt;/p&gt;
+
+&lt;p&gt;For the purposes of developing a &lt;strong&gt;habit&lt;/strong&gt;, that score — how many Consecutive Days you’re on — is the &lt;strong&gt;only&lt;/strong&gt; performance metric you need to worry about. Not how much weight you can lift, or how many JavaScript concepts you’ve mastered, or how many blog posts you've published. Just your Consecutive Days.&lt;/p&gt;
+
+&lt;p&gt;And no matter how far you’ve made it already, that metric will stop you from getting complacent. In fact, the more successful you’ve been, the stronger the incentive to keep going. I just logged 100 study days in a row. If I fail to study today, I'll be forced to log “0 days in a row" tonight. And I’ll have to get back on the horse tomorrow at “1 day in a row." My beautiful chain, that I’ve spent literally months building up, will be gone, and I’ll have to rebuild it from scratch. I'm pretty sure I'll make sure I study today.&lt;/p&gt;
+
+&lt;h3 id="the-detailed-recipe"&gt;The detailed recipe&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Step One: Translate your goal into a daily activity.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Think about something you want to improve about yourself, and figure out what actual &lt;strong&gt;daily activity&lt;/strong&gt; would help you get there. For many goals, this part is easy. If you want to “be fit,” you should exercise every day. If you want to be a great writer, you should write every day. If you want to be a great programmer, you should program every day.&lt;/p&gt;
+
+&lt;p&gt;Other goals might require a bit more creativity. If you want to be more outgoing, perhaps you could try interacting with a stranger every day, even if it's just a smile on the train or telling the barista you like their haircut.&lt;/p&gt;
+
+&lt;p&gt;By the way, I strongly recommend launching only one new habit at a time. So feel free to brainstorm lots of things you want to improve, to get yourself excited, but for the steps after this one, select ​&lt;strong&gt;one&lt;/strong&gt;​ goal to focus on. I've since picked up an exercise habit using this same technique, but I only kicked it off after my study habit was well underway.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step Two: Turn that daily activity into a tiny, tiny commitment.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The actual commitment should be so trivial that you could stick to it even on your very worst day, as long as you remember to do it. This step is very important, and very easy to get wrong.&lt;/p&gt;
+
+&lt;p&gt;When we’re dreaming about ways we could be awesomer, our inclination is to think big. "I’m going to go to the gym every day! I’m going to run a marathon by the end of the year!" But remember: the point of this hack is to build a ​&lt;em&gt;*habit&lt;/em&gt;​*, to make something into an automatic daily part of your life. You’re much more likely to fail at your goals because you ended up not doing the thing at all, than because you did it every day, but not hard enough.&lt;/p&gt;
+
+&lt;p&gt;In that spirit, you should think ​&lt;strong&gt;small&lt;/strong&gt;​ when choosing your daily commitment.&lt;/p&gt;
+
+&lt;p&gt;Imagine coming home after a horrible day where every possible thing that could go wrong did go wrong, and you didn’t sleep enough the previous night, and you have a headache, and your body feels crappy, and your mind is a fog. And you suddenly remember it’s almost midnight and you haven’t done your commitment yet today. Your commitment should be so small that you could succeed at it even under these conditions.&lt;/p&gt;
+
+&lt;p&gt;“Go to the gym every day” is much, &lt;em&gt;much&lt;/em&gt; too big a commitment for an exercise habit.&lt;/p&gt;
+
+&lt;p&gt;“Do a single pushup” is much better.&lt;/p&gt;
+
+&lt;p&gt;You’re allowed to do more than your commitment on any given day of course, but try to set the hard commitment at a level so low that the thought of doing it &lt;strong&gt;right now&lt;/strong&gt; (i.e. you literally stop reading this and do the thing) feels totally easy.&lt;/p&gt;
+
+&lt;p&gt;For my programming goal, my commitment is “15 minutes of studying per day.” And that studying can take any form, so on bad days, I am allowed to just read some relevant blog posts, or watch part of a computer science lecture.&lt;/p&gt;
+
+&lt;p&gt;If you want to pick up flossing, and you hate flossing, your habit commitment might be “floss just the space between your two front teeth.” It might sound silly, but trust me on this.&lt;/p&gt;
+
+&lt;p&gt;Once you’ve kicked off your commitment, a good litmus test is to look at the days when you derailed (and you ​will​ derail at least a few times), and figure out ​&lt;strong&gt;why&lt;/strong&gt;​ you derailed. For my study habit, it was pretty much always: “I just forgot.” Which means my study commitment is a good size… basically, every single day that I ​&lt;strong&gt;remembered&lt;/strong&gt; my commitment, I was able to do it. If you ever have a derailment that’s something like: “I remembered my commitment, but I just couldn’t bring myself to do it that day,” your commitment is probably too large.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step Three: Pick a "default time" to do your tiny commitment.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Think about your existing routines and habits, and decide where in your day you could easily fit this new habit. Maybe it’s first thing in the morning when you get up, or during your lunch break, or as soon as you arrive at your workplace, or right before you brush your teeth for the night.&lt;/p&gt;
+
+&lt;p&gt;It can help to set a reminder on your phone that will alarm every day to remind you. My days are rather variable, so instead I do a thing where every morning, I set alarms on my phone for when I intend to exercise and when I intend to study. My policy is that when the alarm goes off, I am allowed to hit “snooze” (which causes it to alarm again in 10 minutes), and I am allowed to reschedule the alarm, but I am not allowed to simply turn the alarm off, until I have completed the commitment for the day.&lt;/p&gt;
+
+&lt;p&gt;Remember: if you did Step Two correctly and chose a sufficiently tiny commitment, your main derailment risk is simply forgetting to do it one day. Picking a good default time helps protect you against this.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step Four: Choose somewhere to track your Consecutive Days score.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;It should be a place you will definitely see every day. A bathroom mirror where you brush your teeth is a good example. Get a whiteboard marker and write on your bathroom mirror:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Most recent day: &amp;lt;date&amp;gt;&lt;/li&gt;
+  &lt;li&gt;Consecutive days: &amp;lt;number&amp;gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That’s all you really need. Optional things you might also like to track include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Kickoff date: to make it official when your daily habit commitment has begun. You can look back on this date later with pride, and think: “wow, I’ve done this habit almost every day since &amp;lt;kickoff date&amp;gt;!"&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Total days skipped: how many days since the kickoff date have you NOT met the daily habit commitment? This helps give you an incentive to get back on the horse right away when you derail (and like I said, derailing is normal). When “consecutive days” resets to 0, that number can’t get any worse if you fail your commitment the following day also, but “total days skipped” can.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Longest streak: what the biggest “Consecutive Days” score you’ve ever logged, since your kickoff date? When my current streak is my longest streak, I simply write “current” there, which gives me an extra incentive to keep going. It also helps during derailments. You can think: “I may have broken my streak, but at least I have a new high score for longest streak!” (If that’s indeed the case, which it won't always be.) And it gives you something to work toward as you get back on the horse — trying to beat your current high score.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Step Five: When you’re ready, set the current day as your kickoff date and go for it!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Ceremoniously write “0” next to “consecutive days."&lt;/p&gt;
+
+&lt;p&gt;Do your tiny habit commitment.&lt;/p&gt;
+
+&lt;p&gt;Write the current date next to “most recent day."&lt;/p&gt;
+
+&lt;p&gt;Ceremoniously erase the “0” and write in “1” next to “consecutive days."&lt;/p&gt;
+
+&lt;p&gt;And that’s it! You’re off to the races!&lt;/p&gt;
+
+&lt;h3 id="closing-thoughts"&gt;Closing thoughts&lt;/h3&gt;
+
+&lt;p&gt;I’ve included a lot of advice in this post, but the important thing is to just start. Don’t fret too much over whether you’ve set it up just right and followed the advice perfectly. Just take a swing at it and let the game mechanics take it from there. As long as your “Consecutive Days” number is somewhere you can see it, you’ll want to see it go up.&lt;/p&gt;
+
+&lt;p&gt;Remember that derailments are normal and just part of the game. Take them as learning opportunities: was your habit commitment too large? Did you simply forget, and need to strengthen your reminder systems, or choose a different default time? It also helps to take a moment to reflect and appreciate how cool it is that you've been doing this thing almost every day, when before, you were hardly doing it at all. Allow yourself to feel proud of what you &lt;strong&gt;have&lt;/strong&gt; accomplished, and get back on the horse.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>So what is Alice Dash all about?</title>
     <link rel="alternate" href="http://blog.url.com/what-is/"/>
     <id>http://blog.url.com/what-is/</id>
     <published>2015-11-19T17:13:00-08:00</published>
-    <updated>2015-11-21T15:50:48-08:00</updated>
+    <updated>2015-11-22T00:14:01-08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -56,7 +169,7 @@
     <link rel="alternate" href="http://blog.url.com/writers-block-slack/"/>
     <id>http://blog.url.com/writers-block-slack/</id>
     <published>2015-11-18T16:01:00-08:00</published>
-    <updated>2015-11-20T16:41:32-08:00</updated>
+    <updated>2015-11-26T14:35:59-08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
