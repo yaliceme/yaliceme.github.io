@@ -5,10 +5,101 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-11-25T16:56:00-08:00</updated>
+  <updated>2016-01-24T17:56:00-08:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>How to actually set up subl (on Mac)</title>
+    <link rel="alternate" href="http://blog.url.com/subl/"/>
+    <id>http://blog.url.com/subl/</id>
+    <published>2016-01-24T17:56:00-08:00</published>
+    <updated>2016-01-25T01:19:26-08:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;This post is a command-by-command walkthrough on how to set up subl, the command line tool that comes with the text editor Sublime Text. Once you've done this, you'll be able to use the &lt;code&gt;subl&lt;/code&gt; command to open files and directories directly from your terminal. You'll also be able to make Sublime the default text editor used by command line tools such as git. I'll include instructions for git specifically, so that when you do &lt;code&gt;git commit&lt;/code&gt; (for example) you can write your commit message in Sublime instead of vim, the default text editor in the Mac terminal.&lt;/p&gt;
+
+&lt;h3 id="why-this-post"&gt;Why this post?&lt;/h3&gt;
+
+&lt;p&gt;Among text editors, Sublime is often recommended for beginners, because it's easier than vim or emacs. Still, I remember struggling with "simple" installation and configuration tasks as a beginner. The subl instructions from the &lt;a href="https://www.sublimetext.com/docs/2/osx_command_line.html"&gt;Sublime documentation&lt;/a&gt; are just one step long, but in practice, you get errors and end up on Stack Overflow, piecing together the prerequisites that the documentation just blithely assumed you already knew. This kind of confused puzzling is actually totally normal in programming, and you get used to it with experience, but it can be demoralizing when you're starting out. So, for beginners, I've put together this one-stop-shop for getting Sublime set up as your default editor.&lt;/p&gt;
+
+&lt;h3 id="my-assumptions"&gt;My assumptions&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;You're using a Mac computer running OS X or later&lt;/li&gt;
+  &lt;li&gt;You've used the Mac command line before (AKA Terminal) and you know what 'cd' and 'ls' mean. If you don't, you can probably still follow along. And here's a quick &lt;a href="http://cli.learncodethehardway.org/book/"&gt;command line crash course&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;You've already installed Sublime Text, specifically &lt;a href="http://www.sublimetext.com/2"&gt;Sublime Text 2&lt;/a&gt;. These instructions may work for other versions too, but I haven't tested that. You'll need to slightly modify commands wherever "Sublime Text 2" appears.&lt;/li&gt;
+  &lt;li&gt;You’ve already &lt;a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git"&gt;installed git&lt;/a&gt; (for the part where we make Sublime the default editor for git)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="how-to-install-the-subl-command-line-tool"&gt;How to install the subl command line tool&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Step one:&lt;/strong&gt; First, we'll check that you have a &lt;code&gt;~/bin&lt;/code&gt; directory set up, and create one if you don't. In your terminal, enter these commands:&lt;/p&gt;
+
+&lt;p&gt;      &lt;code&gt;cd ~&lt;/code&gt;&lt;br /&gt;
+      &lt;code&gt;ls&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;You should see a list of folders and files from your "home directory." Do you see &lt;code&gt;bin&lt;/code&gt; listed among them? If not, enter this command before moving to step two:&lt;/p&gt;
+
+&lt;p&gt;      &lt;code&gt;mkdir bin&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Side note: &lt;code&gt;cd ~&lt;/code&gt; simply takes you to your home directory. It took me a long time to figure out that &lt;code&gt;~&lt;/code&gt; is simply shorthand for your "home directory" path, which is usually something like &lt;code&gt;/Users/aliceyu&lt;/code&gt;, with &lt;code&gt;/&lt;/code&gt; representing your "root directory." This was surprisingly hard to google up.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step two:&lt;/strong&gt; Double-check that you have Sublime Text 2 installed in your root Applications folder. This will generally be the case if you're on your own computer and didn't do anything unusual when installing Sublime. To be sure, enter this command:&lt;/p&gt;
+
+&lt;p&gt;      &lt;code&gt;ls /Applications&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;You should see &lt;code&gt;Sublime Text 2.app&lt;/code&gt; listed among your applications. If not, you will need to download Sublime, or modify the command in step three if you have it installed elsewhere on your computer.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step three:&lt;/strong&gt; We'll create an "alias" of the subl file in your bin directory. It’s ok if you don’t quite know what that means. Copy and enter this command:&lt;/p&gt;
+
+&lt;p&gt;      &lt;code&gt;sudo ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step four:&lt;/strong&gt; Now we'll edit your &lt;code&gt;.bash_profile&lt;/code&gt;. It's just a little special file that lives in your home directory. &lt;em&gt;(Sidenote: because it starts with a ".",  it doesn’t show up when you type &lt;code&gt;ls&lt;/code&gt; in your home directory, but it does show up if you type &lt;code&gt;ls -a&lt;/code&gt;.)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Enter these commands:&lt;/p&gt;
+
+&lt;p&gt;      &lt;code&gt;cd ~&lt;/code&gt;&lt;br /&gt;
+      &lt;code&gt;vim .bash_profile&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This opens your .bash_profile file inside your terminal, using vim, the default text editor used by the Mac terminal. It may be disorienting if you're not used to vim, but stick with me.&lt;/p&gt;
+
+&lt;p&gt;Press “i” to get into vim “insert” mode.&lt;/p&gt;
+
+&lt;p&gt;Paste in this line:&lt;/p&gt;
+
+&lt;p&gt;      &lt;code&gt;export PATH=$HOME/bin:$PATH&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;I recommend you ALSO add this line, which will make Sublime your default editor for most things (but make sure you have added the previous line too):&lt;/p&gt;
+
+&lt;p&gt;      &lt;code&gt;export EDITOR='subl -w'&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Press “esc” to get back into “command” mode.&lt;/p&gt;
+
+&lt;p&gt;Type this command and hit enter, to save and close the .bash_profile we’ve just edited:&lt;/p&gt;
+
+&lt;p&gt;      &lt;code&gt;:wq&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step five:&lt;/strong&gt; You should now have the subl command line tool set up and working! Let’s test it out. First enter the command &lt;code&gt;exit&lt;/code&gt;, which will close Terminal. Then reopen Terminal and try this command:&lt;/p&gt;
+
+&lt;p&gt;      &lt;code&gt;subl --help&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;That ought to bring up the help text for Sublime, which means it worked. If you have any programming projects, &lt;code&gt;cd&lt;/code&gt; into your project folder and run &lt;code&gt;subl &amp;lt;filename&amp;gt;&lt;/code&gt; to open a file in Sublime Text, or run &lt;code&gt;subl .&lt;/code&gt; to open the entire directory that you're in.&lt;/p&gt;
+
+&lt;h3 id="how-to-set-sublime-as-your-default-editor-for-git"&gt;How to set Sublime as your default editor for git&lt;/h3&gt;
+
+&lt;p&gt;This part is a bit easier. Again, I’m assuming you’ve already installed git. Open your terminal and enter this command:&lt;/p&gt;
+
+&lt;p&gt;      &lt;code&gt;git config --global core.editor "subl -n -w"&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;I don’t believe it matters what directory you’re in. I ran mine from my home directory.&lt;/p&gt;
+
+&lt;p&gt;If that worked, the next time you do &lt;code&gt;git commit&lt;/code&gt;, it should open Sublime and you’ll type your commit message there. Don’t forget you need to save and exit your commit message in order for your commit to go through. I use the keyboard shortcuts &lt;code&gt;cmd s&lt;/code&gt; to save and &lt;code&gt;cmd w&lt;/code&gt; to close the current tab in Sublime.&lt;/p&gt;
+
+&lt;p&gt;And that's it! &lt;a href="https://twitter.com/yaliceme"&gt;Drop me a line&lt;/a&gt; if you found this helpful. Credit to the &lt;a href="https://www.sublimetext.com/docs/2/osx_command_line.html"&gt;Sublime docs&lt;/a&gt;, the &lt;a href="https://help.github.com/articles/associating-text-editors-with-git/"&gt;Github docs&lt;/a&gt;, &lt;a href="http://stackoverflow.com/questions/10196449/installing-sublime-texts-command-line-tool-subl-in-terminal-permission-denie?rq=1"&gt;this StackOverflow&lt;/a&gt;, and my friends Ross and Jake for helping me when I was doing this myself for the first time.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>How to pick up practically any habit</title>
     <link rel="alternate" href="http://blog.url.com/habit/"/>

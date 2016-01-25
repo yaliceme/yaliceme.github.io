@@ -15,6 +15,90 @@
     <div id="main" role="main">
       <h2></h2>
       
+  <h2><a href="/subl/">How to actually set up subl (on Mac)</a> <span>Jan 25</span></h2>
+  <!-- use article.summary(250) if you have Nokogiri available to show just
+       the first 250 characters -->
+  <p>This post is a command-by-command walkthrough on how to set up subl, the command line tool that comes with the text editor Sublime Text. Once you've done this, you'll be able to use the <code>subl</code> command to open files and directories directly from your terminal. You'll also be able to make Sublime the default text editor used by command line tools such as git. I'll include instructions for git specifically, so that when you do <code>git commit</code> (for example) you can write your commit message in Sublime instead of vim, the default text editor in the Mac terminal.</p>
+
+<h3 id="why-this-post">Why this post?</h3>
+
+<p>Among text editors, Sublime is often recommended for beginners, because it's easier than vim or emacs. Still, I remember struggling with "simple" installation and configuration tasks as a beginner. The subl instructions from the <a href="https://www.sublimetext.com/docs/2/osx_command_line.html">Sublime documentation</a> are just one step long, but in practice, you get errors and end up on Stack Overflow, piecing together the prerequisites that the documentation just blithely assumed you already knew. This kind of confused puzzling is actually totally normal in programming, and you get used to it with experience, but it can be demoralizing when you're starting out. So, for beginners, I've put together this one-stop-shop for getting Sublime set up as your default editor.</p>
+
+<h3 id="my-assumptions">My assumptions</h3>
+
+<ul>
+  <li>You're using a Mac computer running OS X or later</li>
+  <li>You've used the Mac command line before (AKA Terminal) and you know what 'cd' and 'ls' mean. If you don't, you can probably still follow along. And here's a quick <a href="http://cli.learncodethehardway.org/book/">command line crash course</a>.</li>
+  <li>You've already installed Sublime Text, specifically <a href="http://www.sublimetext.com/2">Sublime Text 2</a>. These instructions may work for other versions too, but I haven't tested that. You'll need to slightly modify commands wherever "Sublime Text 2" appears.</li>
+  <li>You’ve already <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">installed git</a> (for the part where we make Sublime the default editor for git)</li>
+</ul>
+
+<h3 id="how-to-install-the-subl-command-line-tool">How to install the subl command line tool</h3>
+
+<p><strong>Step one:</strong> First, we'll check that you have a <code>~/bin</code> directory set up, and create one if you don't. In your terminal, enter these commands:</p>
+
+<p>      <code>cd ~</code><br />
+      <code>ls</code></p>
+
+<p>You should see a list of folders and files from your "home directory." Do you see <code>bin</code> listed among them? If not, enter this command before moving to step two:</p>
+
+<p>      <code>mkdir bin</code></p>
+
+<p><em>Side note: <code>cd ~</code> simply takes you to your home directory. It took me a long time to figure out that <code>~</code> is simply shorthand for your "home directory" path, which is usually something like <code>/Users/aliceyu</code>, with <code>/</code> representing your "root directory." This was surprisingly hard to google up.</em></p>
+
+<p><strong>Step two:</strong> Double-check that you have Sublime Text 2 installed in your root Applications folder. This will generally be the case if you're on your own computer and didn't do anything unusual when installing Sublime. To be sure, enter this command:</p>
+
+<p>      <code>ls /Applications</code></p>
+
+<p>You should see <code>Sublime Text 2.app</code> listed among your applications. If not, you will need to download Sublime, or modify the command in step three if you have it installed elsewhere on your computer.</p>
+
+<p><strong>Step three:</strong> We'll create an "alias" of the subl file in your bin directory. It’s ok if you don’t quite know what that means. Copy and enter this command:</p>
+
+<p>      <code>sudo ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl</code></p>
+
+<p><strong>Step four:</strong> Now we'll edit your <code>.bash_profile</code>. It's just a little special file that lives in your home directory. <em>(Sidenote: because it starts with a ".",  it doesn’t show up when you type <code>ls</code> in your home directory, but it does show up if you type <code>ls -a</code>.)</em></p>
+
+<p>Enter these commands:</p>
+
+<p>      <code>cd ~</code><br />
+      <code>vim .bash_profile</code></p>
+
+<p>This opens your .bash_profile file inside your terminal, using vim, the default text editor used by the Mac terminal. It may be disorienting if you're not used to vim, but stick with me.</p>
+
+<p>Press “i” to get into vim “insert” mode.</p>
+
+<p>Paste in this line:</p>
+
+<p>      <code>export PATH=$HOME/bin:$PATH</code></p>
+
+<p>I recommend you ALSO add this line, which will make Sublime your default editor for most things (but make sure you have added the previous line too):</p>
+
+<p>      <code>export EDITOR='subl -w'</code></p>
+
+<p>Press “esc” to get back into “command” mode.</p>
+
+<p>Type this command and hit enter, to save and close the .bash_profile we’ve just edited:</p>
+
+<p>      <code>:wq</code></p>
+
+<p><strong>Step five:</strong> You should now have the subl command line tool set up and working! Let’s test it out. First enter the command <code>exit</code>, which will close Terminal. Then reopen Terminal and try this command:</p>
+
+<p>      <code>subl --help</code></p>
+
+<p>That ought to bring up the help text for Sublime, which means it worked. If you have any programming projects, <code>cd</code> into your project folder and run <code>subl &lt;filename&gt;</code> to open a file in Sublime Text, or run <code>subl .</code> to open the entire directory that you're in.</p>
+
+<h3 id="how-to-set-sublime-as-your-default-editor-for-git">How to set Sublime as your default editor for git</h3>
+
+<p>This part is a bit easier. Again, I’m assuming you’ve already installed git. Open your terminal and enter this command:</p>
+
+<p>      <code>git config --global core.editor "subl -n -w"</code></p>
+
+<p>I don’t believe it matters what directory you’re in. I ran mine from my home directory.</p>
+
+<p>If that worked, the next time you do <code>git commit</code>, it should open Sublime and you’ll type your commit message there. Don’t forget you need to save and exit your commit message in order for your commit to go through. I use the keyboard shortcuts <code>cmd s</code> to save and <code>cmd w</code> to close the current tab in Sublime.</p>
+
+<p>And that's it! <a href="https://twitter.com/yaliceme">Drop me a line</a> if you found this helpful. Credit to the <a href="https://www.sublimetext.com/docs/2/osx_command_line.html">Sublime docs</a>, the <a href="https://help.github.com/articles/associating-text-editors-with-git/">Github docs</a>, <a href="http://stackoverflow.com/questions/10196449/installing-sublime-texts-command-line-tool-subl-in-terminal-permission-denie?rq=1">this StackOverflow</a>, and my friends Ross and Jake for helping me when I was doing this myself for the first time.</p>
+
   <h2><a href="/habit/">How to pick up practically any habit</a> <span>Nov 26</span></h2>
   <!-- use article.summary(250) if you have Nokogiri available to show just
        the first 250 characters -->
@@ -244,6 +328,7 @@
     <aside>
       <h2>Recent Articles</h2>
       <ol>
+          <li><a href="/subl/">How to actually set up subl (on Mac)</a> <span>Jan 25</span></li>
           <li><a href="/habit/">How to pick up practically any habit</a> <span>Nov 26</span></li>
           <li><a href="/what-is/">So what is Alice Dash all about?</a> <span>Nov 20</span></li>
           <li><a href="/writers-block-slack/">How to beat writer's block using Slack</a> <span>Nov 19</span></li>
@@ -253,10 +338,13 @@
       <ol>
           <li><a href="/tags/writing/">writing (2)</a></li>
           <li><a href="/tags/lifehack/">lifehack (2)</a></li>
+          <li><a href="/tags/coding/">coding (1)</a></li>
+          <li><a href="/tags/tutorial/">tutorial (1)</a></li>
       </ol>
       <!--
       <h2>By Year</h2>
       <ol>
+          <li><a href="/2016/">2016 (1)</a></li>
           <li><a href="/2015/">2015 (3)</a></li>
       </ol>
       -->
