@@ -5,10 +5,35 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2016-01-24T17:56:00-08:00</updated>
+  <updated>2016-03-03T22:10:00-08:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>How to actually set up SSH keys (on Mac)</title>
+    <link rel="alternate" href="http://blog.url.com/ssh/"/>
+    <id>http://blog.url.com/ssh/</id>
+    <published>2016-03-03T22:10:00-08:00</published>
+    <updated>2016-03-03T22:48:06-08:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;This is a quick command-by-command reference for how to set up SSH keys. It's essentially a stripped down version of this nicely-written tutorial for &lt;a href="https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-digitalocean-droplets"&gt;using SSH keys with Digital Ocean droplets&lt;/a&gt;. I'm assuming you're doing this on a Macbook of some sort, and that you're familiar with the basic Mac terminal commands.&lt;/p&gt;
+
+&lt;p&gt;Open your Mac terminal and follow these steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt; &lt;code&gt;cd ~&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt; &lt;code&gt;ssh-keygen -t rsa&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Hit enter to accept the default file path.&lt;/li&gt;
+&lt;li&gt;Make and remember a passphrase if you want to (you don’t have to). Hit enter.&lt;/li&gt;
+&lt;li&gt;Your terminal should print out something like: “Your identification has been saved in /Users/YOURNAME/.ssh/id_rsa."&lt;/li&gt;
+&lt;li&gt;Copy-paste that file path from your terminal, and use it to cd to the .ssh folder. (Omit the /id_rsa part at the end of the file path.) Your cd command should look something like: &lt;code&gt;cd /Users/YOURNAME/.ssh&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cat id_rsa.pub&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Your terminal should have printed out your SSH public key, starting with “ssh rsa” and ending with something like “yourname@Your-Macbook.local”.&lt;/li&gt;
+&lt;li&gt;Copy-paste that entire thing, including the "ssh-rsa" and "yourname@Your-Macbook.local" bits at the beginning and end. This is your SSH public key. It's not a secret the way a password is, so it's ok to send around. Use it wherever you need an SSH public key that is associated with your computer.&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+  </entry>
   <entry>
     <title>How to actually set up subl (on Mac)</title>
     <link rel="alternate" href="http://blog.url.com/subl/"/>

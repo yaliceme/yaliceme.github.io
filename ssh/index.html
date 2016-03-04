@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+    <meta property="og:image" content="/images/slack_image.jpg"/>
+    <meta property="og:site_name" content="Alice Yu's personal blog"/>
+    <meta property="og:type" content="blog"/>
+
+    <title>Alice Dash - How to actually set up SSH keys (on Mac)</title>
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+  </head>
+  <body>
+    
+    <div id="main" role="main">
+      <h2>How to actually set up SSH keys (on Mac)</h2>
+      <p>This is a quick command-by-command reference for how to set up SSH keys. It's essentially a stripped down version of this nicely-written tutorial for <a href="https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-digitalocean-droplets">using SSH keys with Digital Ocean droplets</a>. I'm assuming you're doing this on a Macbook of some sort, and that you're familiar with the basic Mac terminal commands.</p>
+
+<p>Open your Mac terminal and follow these steps:</p>
+<ol>
+<li> <code>cd ~</code></li>
+<li> <code>ssh-keygen -t rsa</code></li>
+<li>Hit enter to accept the default file path.</li>
+<li>Make and remember a passphrase if you want to (you don’t have to). Hit enter.</li>
+<li>Your terminal should print out something like: “Your identification has been saved in /Users/YOURNAME/.ssh/id_rsa."</li>
+<li>Copy-paste that file path from your terminal, and use it to cd to the .ssh folder. (Omit the /id_rsa part at the end of the file path.) Your cd command should look something like: <code>cd /Users/YOURNAME/.ssh</code></li>
+<li><code>cat id_rsa.pub</code></li>
+<li>Your terminal should have printed out your SSH public key, starting with “ssh rsa” and ending with something like “yourname@Your-Macbook.local”.</li>
+<li>Copy-paste that entire thing, including the "ssh-rsa" and "yourname@Your-Macbook.local" bits at the beginning and end. This is your SSH public key. It's not a secret the way a password is, so it's ok to send around. Use it wherever you need an SSH public key that is associated with your computer.</li>
+</ol>
+
+    </div>
+    
+    <aside>
+      <h2>Recent Articles</h2>
+      <ol>
+          <li><a href="/ssh/">How to actually set up SSH keys (on Mac)</a> <span>Mar  4</span></li>
+          <li><a href="/subl/">How to actually set up subl (on Mac)</a> <span>Jan 25</span></li>
+          <li><a href="/habit/">How to pick up practically any habit</a> <span>Nov 26</span></li>
+          <li><a href="/what-is/">So what is Alice Dash all about?</a> <span>Nov 20</span></li>
+          <li><a href="/writers-block-slack/">How to beat writer's block using Slack</a> <span>Nov 19</span></li>
+      </ol>
+
+      <h2>Tags</h2>
+      <ol>
+          <li><a href="/tags/writing/">writing (2)</a></li>
+          <li><a href="/tags/lifehack/">lifehack (2)</a></li>
+          <li><a href="/tags/coding/">coding (2)</a></li>
+          <li><a href="/tags/tutorial/">tutorial (2)</a></li>
+      </ol>
+      <!--
+      <h2>By Year</h2>
+      <ol>
+          <li><a href="/2016/">2016 (2)</a></li>
+          <li><a href="/2015/">2015 (3)</a></li>
+      </ol>
+      -->
+    </aside>
+  </body>
+</html>
