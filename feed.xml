@@ -10,15 +10,15 @@
     <name>Blog Author</name>
   </author>
   <entry>
-    <title>How to actually set up SSH keys (on Mac)</title>
+    <title>How to actually create an SSH key (on Mac)</title>
     <link rel="alternate" href="http://blog.url.com/ssh/"/>
     <id>http://blog.url.com/ssh/</id>
     <published>2016-03-03T22:10:00-08:00</published>
-    <updated>2016-03-03T22:48:06-08:00</updated>
+    <updated>2016-03-03T22:49:39-08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;This is a quick command-by-command reference for how to set up SSH keys. It's essentially a stripped down version of this nicely-written tutorial for &lt;a href="https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-digitalocean-droplets"&gt;using SSH keys with Digital Ocean droplets&lt;/a&gt;. I'm assuming you're doing this on a Macbook of some sort, and that you're familiar with the basic Mac terminal commands.&lt;/p&gt;
+    <content type="html">&lt;p&gt;This is a quick command-by-command reference for how to create an SSH key. It's essentially a stripped down version of this nicely-written tutorial for &lt;a href="https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-digitalocean-droplets"&gt;using SSH keys with Digital Ocean droplets&lt;/a&gt;. I'm assuming you're doing this on a Macbook of some sort, and that you're familiar with the basic Mac terminal commands.&lt;/p&gt;
 
 &lt;p&gt;Open your Mac terminal and follow these steps:&lt;/p&gt;
 &lt;ol&gt;
